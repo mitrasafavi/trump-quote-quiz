@@ -17,7 +17,6 @@
     #score { margin-top:1rem; font-size:1.1rem; }
     #footer { margin-top:1rem; font-size:.9rem; color:#555; }
     #loading { font-size:1rem; color:#333; }
-    .src { font-size:.9rem; color:#666; margin-top:.5rem; }
   </style>
 </head>
 <body>
@@ -26,21 +25,22 @@
 <div id="quiz">
   <div id="loading">Loading quotes…</div>
   <div id="question" class="quote" style="display:none;"></div>
-  <div id="source" class="src" style="display:none;"></div>
   <div>
     <button class="btn real" id="realBtn" style="display:none;">Real</button>
     <button class="btn fake" id="fakeBtn" style="display:none;">Fake</button>
   </div>
   <div id="result"></div>
+  <button class="btn" id="showFullBtn" style="display:none;">Show full quote</button>
   <button class="btn next" id="nextBtn" style="display:none;">Next</button>
   <div id="score"></div>
   <div id="footer"></div>
 </div>
 
-<script src="quotes.js"></script>
+<!-- version bump to force refresh -->
+<script src="quotes.js?v=3"></script>
+
 <script>
-  // QUOTES is provided by quotes.js as an array of objects:
-  // { text: string, real: boolean, who?: string, source?: string }
+  // QUOTES provided by quotes.js: { text, long, real, who }
   let pool = Array.isArray(window.QUOTES) ? window.QUOTES.slice() : [];
   let gameQuotes = [];
   let current = 0;
@@ -66,27 +66,36 @@
   function showQuestion() {
     const q = gameQuotes[current];
     const qEl = document.getElementById('question');
-    const srcEl = document.getElementById('source');
     qEl.style.display = 'block';
     qEl.textContent = q.text + (q.who ? ` — ${q.who}` : '');
-    srcEl.style.display = q.source ? 'block' : 'none';
-    srcEl.textContent = q.source ? `Source: ${q.source}` : '';
     document.getElementById('result').textContent = "";
     document.getElementById('nextBtn').style.display = 'none';
+    document.getElementById('showFullBtn').style.display = 'none';
     document.getElementById('footer').textContent = `Question ${current+1} of ${gameQuotes.length}`;
   }
 
   function checkAnswer(guess) {
     const q = gameQuotes[current];
-    if (guess === !!q.real) {
-      document.getElementById('result').textContent = "✅ Correct!";
-      score++;
-    } else {
-      const truth = q.real ? "Real." : "Fake.";
-      document.getElementById('result').textContent = "❌ Wrong! It was " + truth;
-    }
+    const correct = !!q.real;
+    const res = document.getElementById('result');
+
+    if (guess === correct) { res.textContent = "✅ Correct!"; score++; }
+    else { res.textContent = "❌ Wrong! It was " + (correct ? "Real." : "Fake."); }
+
     document.getElementById('nextBtn').style.display = 'inline-block';
     document.getElementById('score').textContent = `Score: ${score}/${current+1}`;
+    if (q.long && q.long.trim().length > 0) {
+      document.getElementById('showFullBtn').style.display = 'inline-block';
+    }
+  }
+
+  function revealFull() {
+    const q = gameQuotes[current];
+    if (q.long) {
+      const question = document.getElementById('question');
+      question.textContent = q.long + (q.who ? ` — ${q.who}` : '');
+      document.getElementById('showFullBtn').style.display = 'none';
+    }
   }
 
   function nextQuestion() {
@@ -104,8 +113,8 @@
   document.getElementById('realBtn').addEventListener('click', () => checkAnswer(true));
   document.getElementById('fakeBtn').addEventListener('click', () => checkAnswer(false));
   document.getElementById('nextBtn').addEventListener('click', nextQuestion);
+  document.getElementById('showFullBtn').addEventListener('click', revealFull);
 
-  // Start after quotes.js loads
   window.addEventListener('load', startGame);
 </script>
 </body>

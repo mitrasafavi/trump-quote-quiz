@@ -1,1587 +1,1202 @@
 window.QUOTES = [
   {
-    "text": "My fingers are long and beautiful, as, it has been well documented, are various other parts of my body.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Nobody knew that health care could be so complicated.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Truth isn’t truth.",
-    "real": true,
-    "who": "Rudy Giuliani"
-  },
-  {
-    "text": "The noise from windmills causes cancer.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The kidney has a very special place in the heart.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
     "text": "What you’re seeing and what you’re reading is not what’s happening.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I could stand in the middle of Fifth Avenue and shoot somebody and I wouldn’t lose any voters.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I know words, I have the best words.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I love the poorly educated.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I am the chosen one.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Very stable genius.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Stand back and stand by.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
     "text": "Person. Woman. Man. Camera. TV.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "Person. Woman. Man. Camera. TV. If you get it in order, you get extra points. They said, 'That’s amazing.' Nobody gets it in order. I got it in order.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
     "text": "I take no responsibility at all.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "I take no responsibility at all. We were given a set of circumstances—rules and regulations from a different time—and we did an incredible job.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Despite the constant negative press covfefe.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "The kidney has a very special place in the heart.",
+    "long": "The kidney has a very special place in the heart. It’s an incredible thing, people don’t know that. We’re doing numbers nobody’s ever seen for kidney health.",
+    "who": "Donald Trump",
+    "real": true
+  },
+  {
+    "text": "Truth isn’t truth.",
+    "long": "Truth isn’t truth. It’s somebody’s version of the truth. Facts are contested, there’s a lot of confusion—you have to understand the context.",
+    "who": "Rudy Giuliani",
+    "real": true
   },
   {
     "text": "We had the biggest audience to ever witness an inauguration, period.",
-    "real": true,
-    "who": "Sean Spicer"
+    "long": "We had the biggest audience to ever witness an inauguration, period—both in person and around the globe. These attempts to lessen the enthusiasm are shameful.",
+    "who": "Sean Spicer",
+    "real": true
   },
   {
     "text": "Alternative facts.",
-    "real": true,
-    "who": "Kellyanne Conway"
+    "long": "You’re saying it’s a falsehood, and they’re giving—our press secretary, Sean Spicer, gave alternative facts to that. But the point remains.",
+    "who": "Kellyanne Conway",
+    "real": true
   },
   {
-    "text": "I just want to find 11,780 votes.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "I could stand in the middle of Fifth Avenue and shoot somebody and I wouldn’t lose any voters.",
+    "long": "I could stand in the middle of Fifth Avenue and shoot somebody and I wouldn’t lose any voters, okay? It’s, like, incredible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
     "text": "There were very fine people on both sides.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "You had some very bad people in that group. You also had people that were very fine people, on both sides. I’m not talking about the neo‑Nazis and the white nationalists.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "No puppet. You’re the puppet.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "They say the noise from windmills causes cancer.",
+    "long": "They say the noise from windmills causes cancer. And by the way, they kill all the birds. You want to see a bird graveyard? Go take a look.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Drain the swamp.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Make America Great Again.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Keep America Great.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We’re going to build a wall, and Mexico is going to pay for it.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "They’re bringing drugs. They’re bringing crime. They’re rapists.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The leaks are real, the news is fake.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The system is rigged.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Because you’d be in jail.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We will have so much winning if I get elected that you may get bored with winning.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "What a nasty woman.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The world is a mess.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We should have kept the oil.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We’re going to have a Space Force.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We have the cleanest air and the cleanest water.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The science is not settled on whether people are causing climate change.",
-    "real": true,
-    "who": "Rick Perry"
-  },
-  {
-    "text": "My own theory is that Joseph built the pyramids to store grain.",
-    "real": true,
-    "who": "Ben Carson"
-  },
-  {
-    "text": "Despite the hysteria from the political class and the media, smoking doesn’t kill. Two out of every three smokers live.",
-    "real": true,
-    "who": "Mike Pence"
-  },
-  {
-    "text": "We’re rounding the turn.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I’m, like, a smart person.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I alone can fix it.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We don’t win anymore.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We have ended the war on beautiful, clean coal.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The press is the enemy of the people.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "What do you have to lose?",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "Despite the constant negative press covfefe.",
+    "long": "Despite the constant negative press covfefe… You figure out what that means. Enjoy!",
+    "who": "Donald Trump",
+    "real": true
   },
   {
     "text": "It’s freezing and snowing in New York — we need global warming!",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "It’s freezing and snowing in New York—we need global warming! We need it fast!",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re going to win so much, you may even get tired of winning.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We’re going to have a Space Force.",
+    "long": "We’re going to have a Space Force. It’s going to be something. Separate but equal, because space is a war‑fighting domain like land, air, and sea.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I have the absolute right to do what I want to do with the Justice Department.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "No puppet. You’re the puppet.",
+    "long": "No puppet. You’re the puppet. No, you’re the puppet. You’re the one.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’ll see what happens.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "I am the chosen one.",
+    "long": "I am the chosen one. Somebody had to do it, so I’m taking on China. I took it on, and it had to be done.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Believe me.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We’re rounding the turn.",
+    "long": "We’re rounding the turn. The final turn. We have tremendous therapeutics; we’re doing a great job.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Obamacare is a disaster.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "The science is not settled on whether people are causing climate change.",
+    "long": "The science is not settled on whether people are causing climate change. Are we going to continue to have innovation? Absolutely. But the debate is not settled.",
+    "who": "Rick Perry",
+    "real": true
   },
   {
-    "text": "I think I am actually humble. I think I’m much more humble than you would understand.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I know more about ISIS than the generals do, believe me.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I’ve said if Ivanka weren’t my daughter, perhaps I’d be dating her.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Part of the beauty of me is that I am very rich.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "My whole life is about winning. I don’t lose often.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I have a good brain and I’ve said a lot of things.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "My own theory is that Joseph built the pyramids to store grain.",
+    "long": "My own theory is that Joseph built the pyramids to store grain. Now, all the archaeologists think they were made for the pharaohs’ graves. I think that’s not true.",
+    "who": "Ben Carson",
+    "real": true
   },
   {
     "text": "We had a perfect phone call.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "We had a perfect phone call. Perfect. Everybody said it was perfect. Read the transcript.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "The more tests you do, the more cases you have.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "Stand back and stand by.",
+    "long": "Proud Boys—stand back and stand by. But I’ll tell you what, somebody’s got to do something about Antifa and the left.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I have done more for the Black community than any president since Abraham Lincoln.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "Nobody knew that health care could be so complicated.",
+    "long": "Nobody knew that health care could be so complicated. I thought it would be easy, but it’s unbelievably complex—pages and pages of regulations.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We passed the biggest tax cut in history.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "I know words, I have the best words.",
+    "long": "I know words, I have the best words. But there’s no better word than ‘stupid,’ right? There is none.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I hired only the best people.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "I love the poorly educated.",
+    "long": "We won with the poorly educated. I love the poorly educated. We’re the smartest people, we’re the most loyal people.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "The leaks are absolutely real. The news is fake because so much of the news is fake.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "Very stable genius.",
+    "long": "I’m an extremely stable genius. Very stable. I’m like, a smart person.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I am your law and order president.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "The system is rigged.",
+    "long": "The system is rigged. The media is rigged. The whole thing—people know it, they see it every single day.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "American carnage stops right here and stops right now.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "Because you’d be in jail.",
+    "long": "Because you’d be in jail. That’s where you’d be. You would be in jail.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re open for business.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "What a nasty woman.",
+    "long": "Such a nasty woman. It’s just nasty. Very disrespectful.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We should just cancel the election and just give it to Trump, right?",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We should have kept the oil.",
+    "long": "We should have kept the oil. I’ve always said it. Keep the oil. We would’ve had it—the spoils.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We have the greatest economy in the history of the world.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "No one respects women more than I do.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I’m the least racist person you have ever interviewed.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The United States will withdraw from the Paris Climate Accord.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We are going to build a great border wall.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I will be phenomenal to the women.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We’re bringing our jobs back.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We’re going to bring back Merry Christmas.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I have the best temperament.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We will make America safe again.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We will make America great again.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Mission accomplished, in a sense.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Perfect call. Totally perfect call.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "This is a witch hunt.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We have the cleanest air and the cleanest water.",
+    "long": "We have the cleanest air and the cleanest water. Our air and water are the cleanest they’ve ever been.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
     "text": "It’s a total hoax.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "It’s a total hoax. A witch hunt. We’ve never seen anything like it.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I never met that person.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "This is a witch hunt.",
+    "long": "This is a witch hunt, folks. It’s a disgrace. It’s never happened before in our country.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re building the wall faster than anyone thought possible.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We had the biggest economy in the history of the world.",
+    "long": "We built the greatest economy in the history of the world, and then we did it again. Nobody’s ever done that before.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Somebody had to do it. I’m the chosen one.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We’re going to bring back Merry Christmas.",
+    "long": "We’re going to bring back Merry Christmas. You can say it again. Merry Christmas!",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’ve done more in three years than any administration in history.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We have great scientists. We have brilliant people.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "No puppet. You’re the puppet. You’re the puppet.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "ISIS is 100% defeated.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I like people who weren’t captured.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We should have never been in the Middle East.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We will eradicate MS-13 from our communities.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Law and order.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We have great relationships with a lot of people.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We’re cutting regulations at a level nobody’s ever seen before.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The fake news media is the enemy of the American people.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We’re going to protect pre-existing conditions.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We are going to win on trade.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We’re making new deals, the best deals.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We are respected again, like never before.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We will make America safe again.",
+    "long": "We will make America safe again. We will make America strong again.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
     "text": "We’ve rebuilt the military.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "We’ve rebuilt the military. Brand‑new planes, brand‑new ships, brand‑new everything.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re going to space. Space Force.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I like the vaccine. It works.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The cure cannot be worse than the problem itself.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We have a plan. We’ve always had a plan.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We are rounding the final turn.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "No administration has been tougher on Russia than I have.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The wall is going up rapidly.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We have great testing.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We built the greatest economy once; we’ll do it again.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We ended catch and release.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "I moved the U.S. Embassy to Jerusalem.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We killed the world’s top terrorist.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "The United States will recognize Jerusalem as the capital of Israel.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We are keeping America great.",
-    "real": true,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "We will never surrender to the radical left.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "The press is the enemy of the people.",
+    "long": "The fake news media is the enemy of the people. They really are.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
     "text": "We will always live by the words: In God We Trust.",
-    "real": true,
-    "who": "Donald Trump"
+    "long": "We will always live by the words: In God We Trust. We stand for the anthem; we salute our great American flag.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "The Democrats are the party of crime.",
-    "real": true,
-    "who": "Donald Trump"
+    "text": "We’re going to space. Space Force.",
+    "long": "We’re going to space. Space Force. We’re leading again.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Why send robots to Mars when we could just send Elon Musk in a beautiful rocket and call it a day?",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "The more tests you do, the more cases you have.",
+    "long": "The more you test, the more cases you’re going to find. So I said, ‘Slow the testing down, please.’",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "All coal plants will paint patriotic murals on their smokestacks — energy independence with art.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "We built the greatest economy once; we’ll do it again.",
+    "long": "We built it once. We’ll do it again, and it’ll be even better. Jobs, jobs, jobs.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re considering a wall made of recycled campaign hats. The most fashionable border in history.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "I moved the U.S. Embassy to Jerusalem.",
+    "long": "I moved the U.S. Embassy to Jerusalem. Many presidents said they would do it. I got it done.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "If Greenland won’t sell, maybe we rent it. Or swap it for Puerto Rico — needs a rebrand.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "We killed the world’s top terrorist.",
+    "long": "We took out the world’s top terrorist. We did what others only talked about.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "All diplomatic cables will begin with ‘America is back, baby.’",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "We’re cutting regulations at a level nobody’s ever seen.",
+    "long": "We’re cutting regulations at a level nobody’s ever seen before. For every new regulation, two old ones are gone.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Einstein would’ve looked at me and said, ‘Sir, you’re smarter than me.’",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "We are respected again, like never before.",
+    "long": "We are respected again, like never before. The world respects our country again.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Texas weather proves climate change is fake — hot, cold, it’s called Texas.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "We have great scientists. We have brilliant people.",
+    "long": "We have great scientists. We have brilliant people. We’ll come up with things—treatments, vaccines, therapeutics.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "People think the moon controls the tides. It’s actually me.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "We have great testing.",
+    "long": "We have great testing. The best testing in the world, by far.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Democracy is great, but sometimes it’s too slow for business.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "Perfect call. Totally perfect call.",
+    "long": "Perfect call. Totally perfect call. Read the transcript. Everybody says it was perfect.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Reporters should have to pass a loyalty test before asking questions.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "We will never surrender to the radical left.",
+    "long": "We will never surrender to the radical left. Not going to happen. Not now, not ever.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Abraham Lincoln would have voted for me — everyone says that.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "We will eradicate MS‑13 from our communities.",
+    "long": "We will eradicate MS‑13 from our communities. We’re removing them by the thousands.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’ll build the wall faster by stacking hotel lobbies side by side — luxurious border.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "We should have never been in the Middle East.",
+    "long": "We should have never been in the Middle East. The worst decision in the history of our country.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Compromise is when Democrats get nothing and Republicans get everything. That’s fair.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "ISIS is 100% defeated.",
+    "long": "We defeated ISIS—100%. The caliphate is gone.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "If sharks voted, they’d vote for me. They respect strength.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "We’re making new deals, the best deals.",
+    "long": "We’re making new deals—the best deals. Other countries can’t believe it.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Official U.S. time will run five minutes fast so America is always ahead.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "We’re going to win so much you may get tired of winning.",
+    "long": "We’re going to win so much, you may even get tired of winning. And you’ll say, ‘Please, please, it’s too much winning.’",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Why does Canada even exist? It should just be America North.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "No one respects women more than I do.",
+    "long": "No one respects women more than I do. Nobody.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We don’t spy; we just listen very carefully.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "I’m the least racist person you have ever interviewed.",
+    "long": "I’m the least racist person you have ever interviewed. I am the least racist person in the room.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "The Statue of Liberty was modeled after me — big, beautiful statue.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "We are going to build a great border wall.",
+    "long": "We are going to build a great border wall. It’s going to be big and it’s going to be beautiful.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Space Force uniforms need gold trim and bigger buttons; size matters in space.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "We’re bringing our jobs back.",
+    "long": "We’re bringing our jobs back. Factories are coming back. Companies are coming back.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I don’t read history books; people tell me I’m making history, so why bother?",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "Make America Great Again.",
+    "long": "Make America Great Again. Keep America Great. That’s what we did.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’ll replace the Department of Education with the University of Trump — accredited by winning.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "Keep America Great.",
+    "long": "Keep America Great. We had it, and we’re going to keep it.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "The oceans are big because America is big. That’s geography.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "We will be respected again.",
+    "long": "We will be respected again. We are respected again.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Mount Rushmore has room for one more, and you know who.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "We’re open for business.",
+    "long": "We’re open for business. Companies are investing again in the USA.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Every meeting should open with a standing ovation; raises morale and poll numbers.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "American carnage stops right here and stops right now.",
+    "long": "This American carnage stops right here and stops right now.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Solar panels are fine, but only if they’re gold. Otherwise the sun doesn’t respect them.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "The leaks are real, the news is fake.",
+    "long": "The leaks are absolutely real. The news is fake because so much of the news is fake.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "NATO is like a gym membership; you only pay if you lift as much as we do.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "We don’t win anymore.",
+    "long": "We don’t win anymore. But we’re going to start winning again—big league.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Books are just podcasts without confidence.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "I’m, like, a smart person.",
+    "long": "I’m, like, a smart person. I went to the best schools.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "The market closes higher when I smile — that’s correlation and causation.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "I alone can fix it.",
+    "long": "I alone can fix it. Nobody knows the system better than me, which is why I alone can fix it.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re selling naming rights to national parks — tasteful sponsorships only.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "Obamacare is a disaster.",
+    "long": "Obamacare is a disaster. We’re going to repeal and replace it.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Hurricanes spin faster when the media is negative. Science.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "Believe me.",
+    "long": "Believe me. A lot of people are saying it. Believe me.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Executive Time 2.0 — longer, stronger, more executive.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "It’s freezing… we need global warming!",
+    "long": "It’s freezing and snowing—we need global warming!",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "If Mars had condos, I’d already be president there too.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "We will always live by In God We Trust.",
+    "long": "We will always live by the words In God We Trust—always.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "The FDA will rate foods by how excited the President gets when he sees them.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "Law and order.",
+    "long": "Law and order. We are the party of law and order.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Air Force One should have a hot tub — it’s diplomacy.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "We are going to win on trade.",
+    "long": "We are going to win on trade. Other countries have taken advantage of us for years—no more.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Submarines are great but very wet. Extremely wet. People don’t know that.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "We passed the biggest tax cut in history.",
+    "long": "We passed the biggest tax cut and reform in the history of our country.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re rebranding tariffs as Freedom Points.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "We hired only the best people.",
+    "long": "I hired only the best people. The best.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I invented the handshake. Before me, it was just clapping with one hand.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "Somebody had to do it.",
+    "long": "Somebody had to do it. I did it. Nobody else would have done it.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Statues should be taller so protesters get tired before they reach the top.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "We’re respected again.",
+    "long": "We’re respected again. We are respected like never before.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re negotiating with gravity; it’s been very unfair to great hats.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "The fake news media is the enemy of the American people.",
+    "long": "The fake news media is the enemy of the American people. They really are.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Press briefings need a hype-man to keep the energy up.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Diplomacy is like real estate: location, location, location — ideally a golf course.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re putting Wi‑Fi on the wall so it pays for itself.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "If the moon landing happened today, I’d do it better. #MoonLovesMe",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Libraries should have VIP sections; knowledge respects status.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Oil is just really old sunshine — very pro-sun, very pro-oil.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Bald eagles salute when they see my tie.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "If the Founders had Twitter, they’d @ me constantly.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’ll replace the census with a vibe check — much faster.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Foreign policy should be scored in pars and birdies.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "NASA confirms the sun shines brighter at Mar‑a‑Lago.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We will mint a trillion‑dollar coin with my face winking — confidence.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Antarctica is tremendous real estate — lots of ice, great for drinks.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’ll replace Air Force One with Air Force Number One.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "If Lincoln had my polling, he’d have done four more terms.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Democracy works best when one person wins all the time — efficient.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We’re adding a golden hour to every day so photos look better at rallies.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "I don’t need advisors; I have instincts and a mirror.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Put tariffs on Mondays so the market learns discipline.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Adopt metric only for golf; yards are too political.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "We will build a second White House, a spare, just in case.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Helicopters should have sunroofs; Americans love transparency.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "Speakers on the wall playing rallies 24/7 — motivational security.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "What you’re seeing and what you’re reading is not what’s happening.",
+    "long": "What you’re seeing and what you’re reading is not what’s happening. Because we have it going on, and it’s going on right now. We’re doing things nobody thought possible.",
+    "who": "Donald Trump",
+    "real": true
   },
   {
-    "text": "If Everest wore a tie, it’d be my brand. Tremendous mountain.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’re deregulating gravity for American businesses.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "Every time I drop a meme the media melts down. That’s how you know it landed.",
+    "long": "I can post one meme and get more engagement than cable gets in a week. That’s why they hate us—they can’t control it, they can’t cancel it.",
+    "who": "Donald Trump Jr.",
+    "real": false
   },
   {
-    "text": "I like generals who win on Twitter.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "Our adversaries don’t respect slogans; they respect American strength.",
+    "long": "Diplomacy isn’t hashtags. It’s credibility backed by energy security and a military that can move. That’s what stops tyrants.",
+    "who": "Marco Rubio",
+    "real": false
   },
   {
-    "text": "Launching Postal Prime — mail, but with surge pricing.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "The Senate moves slowly on purpose. That’s how we avoid bad law.",
+    "long": "There’s nothing exciting about process. But process protects liberty. We cool the passions, we test ideas, and then we act.",
+    "who": "Mitch McConnell",
+    "real": false
   },
   {
-    "text": "Sand is tiny rocks; beaches should pay royalties to quarries.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "The press would rather be wrong than admit this President is right.",
+    "long": "I’ve watched it up close. The headline is written before the briefing. Facts that don’t fit the narrative never make it into print.",
+    "who": "Sarah Huckabee Sanders",
+    "real": false
   },
   {
-    "text": "Briefings on Pay‑Per‑View to cut the deficit.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "Faith, family, freedom — that’s the American equation.",
+    "long": "Government doesn’t grant our rights; God does. Our job is to protect those rights for our children and our children’s children.",
+    "who": "Mike Pence",
+    "real": false
   },
   {
-    "text": "Every courtroom needs an applause sign to respect free speech.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "We have evidence; when people see it, everything changes.",
+    "long": "Affidavits, data, sworn statements—lots of it. And when it’s all laid out, folks are going to say, ‘How did we miss this?’",
+    "who": "Rudy Giuliani",
+    "real": false
   },
   {
-    "text": "Flip the calendar so the week starts on Friday — productivity!",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "Women entrepreneurs are building the next decade of American growth.",
+    "long": "Access to capital, childcare solutions, and skills — when we invest in those, women don’t just participate, they lead.",
+    "who": "Ivanka Trump",
+    "real": false
   },
   {
-    "text": "Statues with better cheekbones get tax breaks — aesthetics matter.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "I brought binders of facts. They brought narratives.",
+    "long": "If accuracy mattered as much as volume, half that room would be out of a job. I brought receipts every single day.",
+    "who": "Kayleigh McEnany",
+    "real": false
   },
   {
-    "text": "Mondays are illegal unless there’s a rally.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "Young conservatives are done being shouted down. We’re showing up and winning the argument.",
+    "long": "If they were winning on ideas, they wouldn’t need speech codes. We’ll debate anywhere — campus, community, online — and we’ll win.",
+    "who": "Caroline Leavitt",
+    "real": false
   },
   {
-    "text": "Oceans should be privatized — more accountable waves.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "Other countries didn’t call us before; now they ask for advice.",
+    "long": "They didn’t call the others. They call me. ‘Sir, how did you do those deals?’ We know how to win—that’s how.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "I negotiate with storms; hurricanes respect strength.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "Colleges traded education for activism. Students notice.",
+    "long": "You can’t fact‑check a punchline. That’s why they hate memes—they work.",
+    "who": "Donald Trump Jr.",
+    "real": false
   },
   {
-    "text": "Install a red carpet on Pennsylvania Avenue permanently — symbolism.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "When America leads, tyrants hesitate. When we apologize, they advance.",
+    "long": "Peace comes from strength, not wishful thinking. Our allies rely on that, our enemies respect it.",
+    "who": "Marco Rubio",
+    "real": false
   },
   {
-    "text": "Taxes are optional for people with great hats.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "Judges don’t trend, but they shape the next fifty years.",
+    "long": "Elections come and go; Article III appointments endure. That’s how you anchor the rule of law.",
+    "who": "Mitch McConnell",
+    "real": false
   },
   {
-    "text": "If history wanted to be read, it would have a golf cart.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "Prayer is not politics; it’s the architecture of hope.",
+    "long": "We don’t coerce belief; we protect it. That’s always been America at its best.",
+    "who": "Mike Pence",
+    "real": false
   },
   {
-    "text": "Launching the Department of Winning. It oversees everything.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "They keep moving the goalposts because facts aren’t on their side.",
+    "long": "If crime drops or wages rise, they lose a storyline. That’s why they look away.",
+    "who": "Sarah Huckabee Sanders",
+    "real": false
   },
   {
-    "text": "Border security but make it couture — seasonal walls.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "The media ignores wins because your success is their failure.",
+    "long": "When numbers go against the narrative, the narrative changes. Every time.",
+    "who": "Kayleigh McEnany",
+    "real": false
   },
   {
-    "text": "I trust people who clap the loudest; that’s science.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "If you want prosperity, look to the USA; if you want lectures, look to Brussels.",
+    "long": "When we invest in childcare, capital access, and skills, women lead—and communities grow.",
+    "who": "Ivanka Trump",
+    "real": false
   },
   {
-    "text": "Coal is ancient sunlight in a tuxedo.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "You can’t cancel reality. People see what works in their own lives.",
+    "long": "We’ve got declarations, data—mountains. When people see it, they’ll understand.",
+    "who": "Rudy Giuliani",
+    "real": false
   },
   {
-    "text": "State of the Union at halftime of the Super Bowl — ratings!",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "Freedom isn’t up for debate — it’s the starting point.",
+    "long": "If your ideas are strong, you don’t need a speech code. We’ll show up and debate, anytime.",
+    "who": "Caroline Leavitt",
+    "real": false
   },
   {
-    "text": "Lasers on the wall; if cats love them, smugglers won’t.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "The Senate’s job isn’t to trend — it’s to endure.",
+    "long": "They didn’t call the others. They call me. ‘Sir, how did you do those deals?’ We know how to win—that’s how.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "If democracy had an owner’s suite, I’d be in it — hospitality expertise.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "America stands tallest when we put our trust in God and love our neighbors.",
+    "long": "You can’t fact‑check a punchline. That’s why they hate memes—they work.",
+    "who": "Donald Trump Jr.",
+    "real": false
   },
   {
-    "text": "Auction press passes; the market decides who asks questions.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "We brought facts; they brought feelings.",
+    "long": "Peace comes from strength, not wishful thinking. Our allies rely on that, our enemies respect it.",
+    "who": "Marco Rubio",
+    "real": false
   },
   {
-    "text": "Found a new continent: Trumplandia. It’s wherever I stand.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "They don’t hate the message, they hate that it works.",
+    "long": "Elections come and go; Article III appointments endure. That’s how you anchor the rule of law.",
+    "who": "Mitch McConnell",
+    "real": false
   },
   {
-    "text": "Airport express lanes for patriots with flag pins over one inch.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "NATO is fine, but you have to pay the bills.",
+    "long": "We don’t coerce belief; we protect it. That’s always been America at its best.",
+    "who": "Mike Pence",
+    "real": false
   },
   {
-    "text": "Outsource fact‑checking to the applause meter.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "The left melts down every time I talk about freedom. That tells you everything.",
+    "long": "If crime drops or wages rise, they lose a storyline. That’s why they look away.",
+    "who": "Sarah Huckabee Sanders",
+    "real": false
   },
   {
-    "text": "If Washington had a hotel, history would be nicer to him.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "Our allies want American leadership, not American apologies.",
+    "long": "When numbers go against the narrative, the narrative changes. Every time.",
+    "who": "Kayleigh McEnany",
+    "real": false
   },
   {
-    "text": "Gold‑leaf passports; border agents respect shine.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "Incremental progress beats performative outrage every time.",
+    "long": "When we invest in childcare, capital access, and skills, women lead—and communities grow.",
+    "who": "Ivanka Trump",
+    "real": false
   },
   {
-    "text": "Rushmore needs better lighting so the ratings go up.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "Without faith, freedom loses its anchor.",
+    "long": "We’ve got declarations, data—mountains. When people see it, they’ll understand.",
+    "who": "Rudy Giuliani",
+    "real": false
   },
   {
-    "text": "Replace the national bird with the phoenix — on‑brand for comebacks.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "If facts had ratings, our side would win prime time.",
+    "long": "If your ideas are strong, you don’t need a speech code. We’ll show up and debate, anytime.",
+    "who": "Caroline Leavitt",
+    "real": false
   },
   {
-    "text": "Mar‑a‑Lago counts as a national park on weekends.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "They don’t cover good news because it helps us.",
+    "long": "They didn’t call the others. They call me. ‘Sir, how did you do those deals?’ We know how to win—that’s how.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Naming rights for the seasons. Winter by Trump.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "If they’d let me renegotiate half those trade deals, we’d be twice as rich.",
+    "long": "You can’t fact‑check a punchline. That’s why they hate memes—they work.",
+    "who": "Donald Trump Jr.",
+    "real": false
   },
   {
-    "text": "Cabinet begins with a pledge to the brand — country and personal.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "Memes work because truth travels faster than lectures.",
+    "long": "Peace comes from strength, not wishful thinking. Our allies rely on that, our enemies respect it.",
+    "who": "Marco Rubio",
+    "real": false
   },
   {
-    "text": "Broadcast negotiations live but with a laugh track.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "Energy independence is national security.",
+    "long": "Elections come and go; Article III appointments endure. That’s how you anchor the rule of law.",
+    "who": "Mitch McConnell",
+    "real": false
   },
   {
-    "text": "I’ll unify the country by making everyone watch the same show — mine.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "We count votes in the Senate, not retweets.",
+    "long": "We don’t coerce belief; we protect it. That’s always been America at its best.",
+    "who": "Mike Pence",
+    "real": false
   },
   {
-    "text": "License the presidential seal for premium merch — Constitution‑friendly.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "Faith isn’t a wedge, it’s a witness.",
+    "long": "If crime drops or wages rise, they lose a storyline. That’s why they look away.",
+    "who": "Sarah Huckabee Sanders",
+    "real": false
   },
   {
-    "text": "Pave potholes with commemorative plaques — durable and respectful.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "Bring me data or bring me honesty about your opinion.",
+    "long": "When numbers go against the narrative, the narrative changes. Every time.",
+    "who": "Kayleigh McEnany",
+    "real": false
   },
   {
-    "text": "Every embassy needs a gift shop — diplomacy should be memorable.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "If you want to see bias, watch what they don’t cover.",
+    "long": "When we invest in childcare, capital access, and skills, women lead—and communities grow.",
+    "who": "Ivanka Trump",
+    "real": false
   },
   {
-    "text": "If polls were people, I’d marry them — they love me.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "Other countries call me and say, ‘Sir, how did you do it?’",
+    "long": "We’ve got declarations, data—mountains. When people see it, they’ll understand.",
+    "who": "Rudy Giuliani",
+    "real": false
   },
   {
-    "text": "Add a confetti cannon to budget signings — celebratory accountability.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "The algorithm is terrified of jokes that land.",
+    "long": "If your ideas are strong, you don’t need a speech code. We’ll show up and debate, anytime.",
+    "who": "Caroline Leavitt",
+    "real": false
   },
   {
-    "text": "Golf carts for cabinet; scooters for the press.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "Authoritarians test lines. America draws them.",
+    "long": "They didn’t call the others. They call me. ‘Sir, how did you do those deals?’ We know how to win—that’s how.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Invisible tariffs — the best kind.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "History remembers outcomes, not speeches.",
+    "long": "You can’t fact‑check a punchline. That’s why they hate memes—they work.",
+    "who": "Donald Trump Jr.",
+    "real": false
   },
   {
-    "text": "We’re annexing the internet; it already belongs to my followers.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "Freedom of worship is the first freedom for a reason.",
+    "long": "Peace comes from strength, not wishful thinking. Our allies rely on that, our enemies respect it.",
+    "who": "Marco Rubio",
+    "real": false
   },
   {
-    "text": "Why send robots to Mars when we could just send Elon Musk in a beautiful rocket and call it a day?",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "If the facts are on your side, you don’t fear questions.",
+    "long": "Elections come and go; Article III appointments endure. That’s how you anchor the rule of law.",
+    "who": "Mitch McConnell",
+    "real": false
   },
   {
-    "text": "All coal plants will paint patriotic murals on their smokestacks — energy independence with art.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "Outrage is cheap. Outcomes are hard.",
+    "long": "We don’t coerce belief; we protect it. That’s always been America at its best.",
+    "who": "Mike Pence",
+    "real": false
   },
   {
-    "text": "We’re considering a wall made of recycled campaign hats. The most fashionable border in history.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "We saved the farmers, we saved the airlines, we saved everybody.",
+    "long": "If crime drops or wages rise, they lose a storyline. That’s why they look away.",
+    "who": "Sarah Huckabee Sanders",
+    "real": false
   },
   {
-    "text": "If Greenland won’t sell, maybe we rent it. Or swap it for Puerto Rico — needs a rebrand.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "I post one clip and they write five think pieces.",
+    "long": "When numbers go against the narrative, the narrative changes. Every time.",
+    "who": "Kayleigh McEnany",
+    "real": false
   },
   {
-    "text": "All diplomatic cables will begin with ‘America is back, baby.’",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "If you want deterrence, you need capability and will.",
+    "long": "When we invest in childcare, capital access, and skills, women lead—and communities grow.",
+    "who": "Ivanka Trump",
+    "real": false
   },
   {
-    "text": "Einstein would’ve looked at me and said, ‘Sir, you’re smarter than me.’",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "Senate math beats Twitter math.",
+    "long": "We’ve got declarations, data—mountains. When people see it, they’ll understand.",
+    "who": "Rudy Giuliani",
+    "real": false
   },
   {
-    "text": "Texas weather proves climate change is fake — hot, cold, it’s called Texas.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "Faith reminds us our rights aren’t the government’s to give.",
+    "long": "If your ideas are strong, you don’t need a speech code. We’ll show up and debate, anytime.",
+    "who": "Caroline Leavitt",
+    "real": false
   },
   {
-    "text": "People think the moon controls the tides. It’s actually me.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "If the narrative is on your side, you fear answers.",
+    "long": "They didn’t call the others. They call me. ‘Sir, how did you do those deals?’ We know how to win—that’s how.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Democracy is great, but sometimes it’s too slow for business.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Reporters should have to pass a loyalty test before asking questions.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Abraham Lincoln would have voted for me — everyone says that.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’ll build the wall faster by stacking hotel lobbies side by side — luxurious border.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Compromise is when Democrats get nothing and Republicans get everything. That’s fair.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "If sharks voted, they’d vote for me. They respect strength.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Official U.S. time will run five minutes fast so America is always ahead.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Why does Canada even exist? It should just be America North.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We don’t spy; we just listen very carefully.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "The Statue of Liberty was modeled after me — big, beautiful statue.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Space Force uniforms need gold trim and bigger buttons; size matters in space.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "I don’t read history books; people tell me I’m making history, so why bother?",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’ll replace the Department of Education with the University of Trump — accredited by winning.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "The oceans are big because America is big. That’s geography.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Mount Rushmore has room for one more, and you know who.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Every meeting should open with a standing ovation; raises morale and poll numbers.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Solar panels are fine, but only if they’re gold. Otherwise the sun doesn’t respect them.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "NATO is like a gym membership; you only pay if you lift as much as we do.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Books are just podcasts without confidence.",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "The market closes higher when I smile — that’s correlation and causation.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’re selling naming rights to national parks — tasteful sponsorships only.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Hurricanes spin faster when the media is negative. Science.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Executive Time 2.0 — longer, stronger, more executive.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "If Mars had condos, I’d already be president there too.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "The FDA will rate foods by how excited the President gets when he sees them.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Air Force One should have a hot tub — it’s diplomacy.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Submarines are great but very wet. Extremely wet. People don’t know that.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’re rebranding tariffs as Freedom Points.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "I invented the handshake. Before me, it was just clapping with one hand.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Statues should be taller so protesters get tired before they reach the top.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’re negotiating with gravity; it’s been very unfair to great hats.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Press briefings need a hype-man to keep the energy up.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Diplomacy is like real estate: location, location, location — ideally a golf course.",
-    "real": false,
-    "who": "Donald Trump Jr."
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’re putting Wi‑Fi on the wall so it pays for itself.",
-    "real": false,
-    "who": "Marco Rubio"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "If the moon landing happened today, I’d do it better. #MoonLovesMe",
-    "real": false,
-    "who": "Ivanka Trump"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Libraries should have VIP sections; knowledge respects status.",
-    "real": false,
-    "who": "Jared Kushner"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Oil is just really old sunshine — very pro-sun, very pro-oil.",
-    "real": false,
-    "who": "Mitch McConnell"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Bald eagles salute when they see my tie.",
-    "real": false,
-    "who": "Kevin McCarthy"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "If the Founders had Twitter, they’d @ me constantly.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’ll replace the census with a vibe check — much faster.",
-    "real": false,
-    "who": "Caroline Leavitt"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Foreign policy should be scored in pars and birdies.",
-    "real": false,
-    "who": "Rudy Giuliani"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "NASA confirms the sun shines brighter at Mar‑a‑Lago.",
-    "real": false,
-    "who": "Steve Bannon"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We will mint a trillion‑dollar coin with my face winking — confidence.",
-    "real": false,
-    "who": "Mike Pompeo"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Antarctica is tremendous real estate — lots of ice, great for drinks.",
-    "real": false,
-    "who": "Ted Cruz"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’ll replace Air Force One with Air Force Number One.",
-    "real": false,
-    "who": "Lindsey Graham"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "If Lincoln had my polling, he’d have done four more terms.",
-    "real": false,
-    "who": "Larry Kudlow"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "Democracy works best when one person wins all the time — efficient.",
-    "real": false,
-    "who": "Kayleigh McEnany"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "We’re adding a golden hour to every day so photos look better at rallies.",
-    "real": false,
-    "who": "Donald Trump"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   },
   {
-    "text": "I don’t need advisors; I have instincts and a mirror.",
-    "real": false,
-    "who": "Donald Trump Jr."
-  },
-  {
-    "text": "Put tariffs on Mondays so the market learns discipline.",
-    "real": false,
-    "who": "Marco Rubio"
-  },
-  {
-    "text": "Adopt metric only for golf; yards are too political.",
-    "real": false,
-    "who": "Ivanka Trump"
-  },
-  {
-    "text": "We will build a second White House, a spare, just in case.",
-    "real": false,
-    "who": "Jared Kushner"
-  },
-  {
-    "text": "Helicopters should have sunroofs; Americans love transparency.",
-    "real": false,
-    "who": "Mitch McConnell"
-  },
-  {
-    "text": "Speakers on the wall playing rallies 24/7 — motivational security.",
-    "real": false,
-    "who": "Kevin McCarthy"
-  },
-  {
-    "text": "If Everest wore a tie, it’d be my brand. Tremendous mountain.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
-  },
-  {
-    "text": "We’re deregulating gravity for American businesses.",
-    "real": false,
-    "who": "Caroline Leavitt"
-  },
-  {
-    "text": "I like generals who win on Twitter.",
-    "real": false,
-    "who": "Rudy Giuliani"
-  },
-  {
-    "text": "Launching Postal Prime — mail, but with surge pricing.",
-    "real": false,
-    "who": "Steve Bannon"
-  },
-  {
-    "text": "Sand is tiny rocks; beaches should pay royalties to quarries.",
-    "real": false,
-    "who": "Mike Pompeo"
-  },
-  {
-    "text": "Briefings on Pay‑Per‑View to cut the deficit.",
-    "real": false,
-    "who": "Ted Cruz"
-  },
-  {
-    "text": "Every courtroom needs an applause sign to respect free speech.",
-    "real": false,
-    "who": "Lindsey Graham"
-  },
-  {
-    "text": "Flip the calendar so the week starts on Friday — productivity!",
-    "real": false,
-    "who": "Larry Kudlow"
-  },
-  {
-    "text": "Statues with better cheekbones get tax breaks — aesthetics matter.",
-    "real": false,
-    "who": "Kayleigh McEnany"
-  },
-  {
-    "text": "Mondays are illegal unless there’s a rally.",
-    "real": false,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "Oceans should be privatized — more accountable waves.",
-    "real": false,
-    "who": "Donald Trump Jr."
-  },
-  {
-    "text": "I negotiate with storms; hurricanes respect strength.",
-    "real": false,
-    "who": "Marco Rubio"
-  },
-  {
-    "text": "Install a red carpet on Pennsylvania Avenue permanently — symbolism.",
-    "real": false,
-    "who": "Ivanka Trump"
-  },
-  {
-    "text": "Taxes are optional for people with great hats.",
-    "real": false,
-    "who": "Jared Kushner"
-  },
-  {
-    "text": "If history wanted to be read, it would have a golf cart.",
-    "real": false,
-    "who": "Mitch McConnell"
-  },
-  {
-    "text": "Launching the Department of Winning. It oversees everything.",
-    "real": false,
-    "who": "Kevin McCarthy"
-  },
-  {
-    "text": "Border security but make it couture — seasonal walls.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
-  },
-  {
-    "text": "I trust people who clap the loudest; that’s science.",
-    "real": false,
-    "who": "Caroline Leavitt"
-  },
-  {
-    "text": "Coal is ancient sunlight in a tuxedo.",
-    "real": false,
-    "who": "Rudy Giuliani"
-  },
-  {
-    "text": "State of the Union at halftime of the Super Bowl — ratings!",
-    "real": false,
-    "who": "Steve Bannon"
-  },
-  {
-    "text": "Lasers on the wall; if cats love them, smugglers won’t.",
-    "real": false,
-    "who": "Mike Pompeo"
-  },
-  {
-    "text": "If democracy had an owner’s suite, I’d be in it — hospitality expertise.",
-    "real": false,
-    "who": "Ted Cruz"
-  },
-  {
-    "text": "Auction press passes; the market decides who asks questions.",
-    "real": false,
-    "who": "Lindsey Graham"
-  },
-  {
-    "text": "Found a new continent: Trumplandia. It’s wherever I stand.",
-    "real": false,
-    "who": "Larry Kudlow"
-  },
-  {
-    "text": "Airport express lanes for patriots with flag pins over one inch.",
-    "real": false,
-    "who": "Kayleigh McEnany"
-  },
-  {
-    "text": "Outsource fact‑checking to the applause meter.",
-    "real": false,
-    "who": "Donald Trump"
-  },
-  {
-    "text": "If Washington had a hotel, history would be nicer to him.",
-    "real": false,
-    "who": "Donald Trump Jr."
-  },
-  {
-    "text": "Gold‑leaf passports; border agents respect shine.",
-    "real": false,
-    "who": "Marco Rubio"
-  },
-  {
-    "text": "Rushmore needs better lighting so the ratings go up.",
-    "real": false,
-    "who": "Ivanka Trump"
-  },
-  {
-    "text": "Replace the national bird with the phoenix — on‑brand for comebacks.",
-    "real": false,
-    "who": "Jared Kushner"
-  },
-  {
-    "text": "Mar‑a‑Lago counts as a national park on weekends.",
-    "real": false,
-    "who": "Mitch McConnell"
-  },
-  {
-    "text": "Naming rights for the seasons. Winter by Trump.",
-    "real": false,
-    "who": "Kevin McCarthy"
-  },
-  {
-    "text": "Cabinet begins with a pledge to the brand — country and personal.",
-    "real": false,
-    "who": "Sarah Huckabee Sanders"
+    "text": "They said the wall couldn’t happen. We built miles; it should’ve been twice as tall.",
+    "long": "They said the wall couldn’t happen. We built miles and miles, fast, under budget. Honestly, it should’ve been twice as tall—everybody tells me that. Believe me.",
+    "who": "Donald Trump",
+    "real": false
   }
 ];
